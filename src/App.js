@@ -35,8 +35,7 @@ export default function App(props) {
     <ThemeProvider theme={theme}>
   <div className={classes.root} >
     <CssBaseline />
-    <Game style={theme.typography}/>
-    {/* <button  style={theme.typography}>hfhfh </button> */}
+    <Game style={theme.typography} Github={"https://github.com/kligan/ReactGame"}/>
   </div>
   </ThemeProvider>
   )
