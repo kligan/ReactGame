@@ -54,6 +54,7 @@ const winner = helper(board);
                <p>{winner ? 'Winner: ' + winner : 'Next Player: ' + (xIsNext ? 'X' : 'O')}</p>
                {renderMoves()}
             </div>
+            <button style={style} width={'300px'} onClick={()=>{alert(6)}}>Github</button>
            </div>
         </>
     )
